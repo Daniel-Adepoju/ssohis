@@ -1,6 +1,5 @@
-import { Resolver } from 'dns/promises'
+
 import nodemailer from 'nodemailer'
-import { NextResponse } from 'next/server'
 export const POST = async (req) => {
   const {subject, content} = await req.json()
 
